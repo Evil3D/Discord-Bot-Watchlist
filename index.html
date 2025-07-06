@@ -1,77 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>All Invites Display</title>
-<style>
-  body { font-family: Arial, sans-serif; margin: 20px; }
-  h2 { color: #333; }
-  ul { list-style: none; padding-left: 0; }
-  li { margin-bottom: 8px; }
-  a { color: #1a0dab; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-</style>
+  <meta charset="UTF-8">
+  <title>Discord Bot Watchlist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    *{box-sizing:border-box;}
+    body{font-family:system-ui,sans-serif;background:#0d1117;color:#c9d1d9;margin:0;padding:0 1rem 4rem;}
+    h1,h2{color:#58a6ff;}
+    a{color:#8ae9ff;text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    ul{list-style-type:none;padding-left:0;}
+    li{margin:.25rem 0;}
+    .tag{font-size:.75rem;background:#30363d;border-radius:4px;padding:2px 6px;margin-left:4px;}
+    .status-PA{color:#ffb77c;}
+    .status-W,.status-HW{color:#7ee787;}
+    .status-V{color:#f9826c;}
+    .status-PW{color:#e3b341;}
+    .status-OPA,.status-SPA,.status-VNPA,.status-OWV{color:#d2a8ff;}
+    details{background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1rem;margin-bottom:1rem;}
+    summary{cursor:pointer;font-weight:bold;font-size:1.1rem;}
+    footer{margin-top:4rem;font-size:.8rem;text-align:center;color:#6e7681;}
+  </style>
 </head>
 <body>
+<h1>Discord Bot Watchlist</h1>
+<p>This page pulls live data from the <a href="https://github.com/Evil3D/Discord-Bot-Watchlist">GitHub README</a> and lists every Discord bot invite it finds.<br>
+<strong>Status codes</strong> indicate how the invite behaved when tested.</p>
 
-<h2>Normal Invites</h2>
-<ul id="normal-invites"></ul>
+<h2>Status Legend</h2>
+<ul>
+  <li><span class="tag status-PA">PA</span> – Private Access (invite blocked)</li>
+  <li><span class="tag status-W">W</span> – Invite works</li>
+  <li><span class="tag status-V">V</span> – Verified bot</li>
+  <li><span class="tag status-PW">PW</span> – Probably works</li>
+  <li><span class="tag status-OPA">OPA</span> – Obviously private access</li>
+  <li><span class="tag status-SPA">SPA</span> – Surprisingly private access</li>
+  <li><span class="tag status-VNPA">VNPA</span> – Very nice, private access</li>
+  <li><span class="tag status-OWV">OWV</span> – Obviously works, verified</li>
+  <li><span class="tag status-HW">HW</span> – "Half‑works" (rate‑limited or too popular)</li>
+</ul>
 
-<h2>Internet Archive Invites</h2>
-<ul id="internet-archive-invites"></ul>
+<div id="botSections">
+  <p>Loading bot list…</p>
+</div>
+
+<footer>
+  Auto‑generated on page load • Source: Evil3D/Discord‑Bot‑Watchlist • Updated <span id="updated"></span>
+</footer>
 
 <script>
-  // This should be your full README content as a string
-  const readme = `  
-  ## Normal Invites
-  - BotOne: https://discord.com/invite/botone
-  - BotTwo: https://discord.com/invite/bottwo
-
-  ## Internet Archive Invites
-  - ArchiveBot: https://discord.com/invite/archivebot
-  - AnotherArchiveBot: https://discord.com/invite/anotherarchivebot
-  `;
-
-  function extractInvites(sectionTitle) {
-    // Build regex dynamically to capture the section by its title and the following list items
-    const regex = new RegExp(
-      `##\\s*${sectionTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*\\n((?:[-*].+\\n?)+)`,
-      'i'
-    );
-    const match = readme.match(regex);
-    if (!match) return [];
-    
-    // Split the list items and extract name + invite link
-    return match[1]
-      .trim()
-      .split('\n')
-      .map(line => {
-        const parts = line.replace(/^[-*]\s*/, '').split(':');
-        return { name: parts[0].trim(), invite: parts[1].trim() };
-      });
+(async function(){
+  const RAW_URL = 'https://raw.githubusercontent.com/Evil3D/Discord-Bot-Watchlist/main/README.md';
+  const res = await fetch(RAW_URL);
+  if(!res.ok){
+    document.getElementById('botSections').innerHTML='<p>Failed to fetch README 😢</p>';
+    return;
   }
+  const text = await res.text();
+  const lines = text.split(/\r?\n/);
 
-  const normalInvites = extractInvites('Normal Invites');
-  const internetArchiveInvites = extractInvites('Internet Archive Invites');
+  const sections = {};
+  let current = null;
+  const secRe = /^###\s*\*\*(.+?)\*\*/i;
+  const botRe = /^(https?:\/\/\S+?)\s+-\s+(.+)/i;
+  const statusCodes = ['PA','W','V','PW','OPA','SPA','VNPA','OWV','HW'];
 
-  function renderInvites(invites, containerId) {
-    const container = document.getElementById(containerId);
-    if (invites.length === 0) {
-      container.innerHTML = '<li>No invites found.</li>';
-      return;
+  // This will collect ALL bots found outside of any section
+  const normalInvitesFallback = [];
+
+  for(const l of lines){
+    const sec = l.match(secRe);
+    if(sec){
+      current = sec[1].trim();
+      if(!sections[current]) sections[current] = [];
+      continue;
     }
-    container.innerHTML = invites
-      .map(
-        invite =>
-          `<li><strong>${invite.name}</strong>: <a href="${invite.invite}" target="_blank">${invite.invite}</a></li>`
-      )
-      .join('');
+    const bot = l.match(botRe);
+    if(bot){
+      let url = bot[1];
+      let label = bot[2].trim();
+      let status = null;
+      const m = label.match(/,\s*(PA|W|V|PW|OPA|SPA|VNPA|OWV|HW)\s*$/i);
+      if(m){
+        status = m[1].toUpperCase();
+        label = label.replace(/,\s*(PA|W|V|PW|OPA|SPA|VNPA|OWV|HW)\s*$/i, '').trim();
+      }
+      if(current){
+        sections[current].push({url,label,status});
+      } else {
+        // no current section - treat as "normal invites"
+        normalInvitesFallback.push({url,label,status});
+      }
+    }
   }
 
-  renderInvites(normalInvites, 'normal-invites');
-  renderInvites(internetArchiveInvites, 'internet-archive-invites');
-</script>
+  // If "Normal Invites" section missing but fallback bots found, add them explicitly
+  if(!sections['Normal Invites'] && normalInvitesFallback.length > 0){
+    sections['Normal Invites'] = normalInvitesFallback;
+  }
 
+  // build HTML
+  const container = document.getElementById('botSections');
+  container.innerHTML = '';
+  for(const [secName,bots] of Object.entries(sections)){
+    if(!bots.length) continue;
+    const details = document.createElement('details');
+    details.open = true;
+    const summary = document.createElement('summary');
+    summary.textContent = `${secName} (${bots.length})`;
+    details.appendChild(summary);
+    const ul = document.createElement('ul');
+    bots.forEach(b=>{
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = b.url;
+      a.textContent = b.label;
+      a.target = '_blank';
+      li.appendChild(a);
+      if(b.status){
+        const span = document.createElement('span');
+        span.className = `tag status-${b.status}`;
+        span.textContent = b.status;
+        li.appendChild(span);
+      }
+      ul.appendChild(li);
+    });
+    details.appendChild(ul);
+    container.appendChild(details);
+  }
+
+  document.getElementById('updated').textContent = new Date().toLocaleString();
+})();
+</script>
 </body>
 </html>
