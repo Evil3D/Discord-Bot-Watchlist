@@ -1,197 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DIT Bot Status</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0e0e10;
-      color: #e0e0e0;
-    }
-
-    header {
-      padding: 2rem 1rem;
-      text-align: center;
-      background-color: #1f1f23;
-      border-bottom: 1px solid #2e2e31;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-      color: #f1f1f1;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-
-    .section {
-      background-color: #1a1a1d;
-      border-radius: 10px;
-      margin-bottom: 1.5rem;
-      overflow: hidden;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    }
-
-    .section-header {
-      padding: 1rem;
-      font-size: 1.25rem;
-      font-weight: bold;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #2a2a2e;
-      border-bottom: 1px solid #3a3a3e;
-    }
-
-    .section-content {
-      display: none;
-      padding: 1rem;
-    }
-
-    .bot {
-      margin-bottom: 1rem;
-      padding: 0.75rem 1rem;
-      background-color: #2b2b30;
-      border-radius: 8px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .bot-name {
-      font-size: 1rem;
-      font-weight: 500;
-    }
-
-    .status {
-      font-size: 0.9rem;
-      padding: 0.3rem 0.6rem;
-      border-radius: 6px;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-
-    .online {
-      background-color: #2ecc71;
-      color: #0e0e10;
-    }
-
-    .offline {
-      background-color: #e74c3c;
-      color: #0e0e10;
-    }
-
-    .idle {
-      background-color: #f1c40f;
-      color: #0e0e10;
-    }
-
-    .maintenance {
-      background-color: #9b59b6;
-      color: #0e0e10;
-    }
-
-    .arrow {
-      transition: transform 0.2s ease-in-out;
-    }
-
-    .arrow.rotate {
-      transform: rotate(90deg);
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.85rem;
-      color: #888;
-      margin: 3rem 0 1rem;
-    }
-
-    @media (max-width: 600px) {
-      .bot {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .status {
-        margin-top: 0.5rem;
-      }
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>All Invites Display</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  h2 { color: #333; }
+  ul { list-style: none; padding-left: 0; }
+  li { margin-bottom: 8px; }
+  a { color: #1a0dab; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
 </head>
 <body>
 
-  <header>
-    <h1>DIT Bot Status</h1>
-  </header>
+<h2>Normal Invites</h2>
+<ul id="normal-invites"></ul>
 
-  <div class="container">
-    <div class="section">
-      <div class="section-header" onclick="toggleSection(this)">
-        Core Bots
-        <span class="arrow">&#9654;</span>
-      </div>
-      <div class="section-content">
-        <div class="bot">
-          <div class="bot-name">Watcher</div>
-          <div class="status online">Online</div>
-        </div>
-        <div class="bot">
-          <div class="bot-name">Logger</div>
-          <div class="status offline">Offline</div>
-        </div>
-        <div class="bot">
-          <div class="bot-name">Commander</div>
-          <div class="status maintenance">Maintenance</div>
-        </div>
-      </div>
-    </div>
+<h2>Internet Archive Invites</h2>
+<ul id="internet-archive-invites"></ul>
 
-    <div class="section">
-      <div class="section-header" onclick="toggleSection(this)">
-        Utility Bots
-        <span class="arrow">&#9654;</span>
-      </div>
-      <div class="section-content">
-        <div class="bot">
-          <div class="bot-name">Helper</div>
-          <div class="status online">Online</div>
-        </div>
-        <div class="bot">
-          <div class="bot-name">Reminder</div>
-          <div class="status idle">Idle</div>
-        </div>
-        <div class="bot">
-          <div class="bot-name">Notifier</div>
-          <div class="status online">Online</div>
-        </div>
-      </div>
-    </div>
-  </div>
+<script>
+  // This should be your full README content as a string
+  const readme = `  
+  ## Normal Invites
+  - BotOne: https://discord.com/invite/botone
+  - BotTwo: https://discord.com/invite/bottwo
 
-  <footer>
-    &copy; 2025 DIT Status Panel
-  </footer>
+  ## Internet Archive Invites
+  - ArchiveBot: https://discord.com/invite/archivebot
+  - AnotherArchiveBot: https://discord.com/invite/anotherarchivebot
+  `;
 
-  <script>
-    function toggleSection(header) {
-      const content = header.nextElementSibling;
-      const arrow = header.querySelector('.arrow');
-      const isVisible = content.style.display === 'block';
-      content.style.display = isVisible ? 'none' : 'block';
-      arrow.classList.toggle('rotate', !isVisible);
+  function extractInvites(sectionTitle) {
+    // Build regex dynamically to capture the section by its title and the following list items
+    const regex = new RegExp(
+      `##\\s*${sectionTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*\\n((?:[-*].+\\n?)+)`,
+      'i'
+    );
+    const match = readme.match(regex);
+    if (!match) return [];
+    
+    // Split the list items and extract name + invite link
+    return match[1]
+      .trim()
+      .split('\n')
+      .map(line => {
+        const parts = line.replace(/^[-*]\s*/, '').split(':');
+        return { name: parts[0].trim(), invite: parts[1].trim() };
+      });
+  }
+
+  const normalInvites = extractInvites('Normal Invites');
+  const internetArchiveInvites = extractInvites('Internet Archive Invites');
+
+  function renderInvites(invites, containerId) {
+    const container = document.getElementById(containerId);
+    if (invites.length === 0) {
+      container.innerHTML = '<li>No invites found.</li>';
+      return;
     }
+    container.innerHTML = invites
+      .map(
+        invite =>
+          `<li><strong>${invite.name}</strong>: <a href="${invite.invite}" target="_blank">${invite.invite}</a></li>`
+      )
+      .join('');
+  }
 
-    // Optionally auto-expand all on load
-    // document.querySelectorAll('.section-header').forEach(h => h.click());
-  </script>
+  renderInvites(normalInvites, 'normal-invites');
+  renderInvites(internetArchiveInvites, 'internet-archive-invites');
+</script>
 
 </body>
 </html>
