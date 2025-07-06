@@ -2,7 +2,7 @@
 
 Hallo, this is where im gonna put all the bot invites i have collected, what i do is basically check the servers im in for unverified bots and if there are any i check if i can add them to my server, and now i have a list of over 50 working bot invites, these most likely will not be checked alot, if at all.
 
-#### **Btw this README will probably not be updated alot, instead i recommend you visit the website**
+#### **For better formatting, visit the [website](https://evil3d.github.io/Discord-Bot-Watchlist) instead**
 
 Idk what else to say so here's why i made this:
   I was quite bored and i was bored..
