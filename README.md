@@ -127,6 +127,9 @@ https://discord.com/api/oauth2/authorize?client_id=722724539028734003 //Doesnt w
 https://discord.com/api/oauth2/authorize?client_id=724047481561809007&scope=bot - ScatHatch, V
 https://discord.com/api/oauth2/authorize?client_id=962376379658297375&scope=bot - ValorHub, inactive dev and too popular, PW
 
+### **From Servers**
+https://discord.com/api/oauth2/authorize?client_id=1391529642174709830&scope=bot - Ducky's Server bot Stafftrack, W
+https://discord.com/api/oauth2/authorize?client_id=485406206278631425&scope=bot - chiru from gg/fun, OPA
 
 ## **Cleaned Up and Minimalistic**
 
@@ -231,3 +234,7 @@ https://discord.com/api/oauth2/authorize?client_id=962376379658297375&scope=bot 
 [DraftBot PTB, V](https://discord.com/api/oauth2/authorize?client_id=497070494353195019&scope=bot)
 [ScatHatch, V](https://discord.com/api/oauth2/authorize?client_id=724047481561809007&scope=bot)
 [ValorHub, inactive dev and too popular, PW](https://discord.com/api/oauth2/authorize?client_id=962376379658297375&scope=bot)
+
+### **From Servers**
+[Ducky's Server bot Stafftrack, W](https://discord.com/api/oauth2/authorize?client_id=1391529642174709830&scope=bot)
+[chiru from gg/fun, OPA](https://discord.com/api/oauth2/authorize?client_id=485406206278631425&scope=bot)
