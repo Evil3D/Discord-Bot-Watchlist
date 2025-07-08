@@ -25,10 +25,10 @@
 </head>
 <body>
 <h1>Discord Bot Watchlist</h1>
-<p>This page pulls live data from the <a href="https://github.com/Evil3D/Discord-Bot-Watchlist">GitHub README</a> and lists every Discord bot invite it finds.<br>
+<p>This page pulls live data from the <a href="https://github.com/Evil3D/Discord-Bot-Watchlist">GitHub List.md</a> and lists every Discord bot invite it finds.<br>
 <strong>Status codes</strong> indicate how the invite behaved when tested.</p>
 
-<h2>Status Legend</h2>
+<h2>Status Codes</h2>
 <ul>
   <li><span class="tag status-PA">PA</span> – Private Access (invite blocked)</li>
   <li><span class="tag status-W">W</span> – Invite works</li>
@@ -39,6 +39,7 @@
   <li><span class="tag status-VNPA">VNPA</span> – Very nice, private access</li>
   <li><span class="tag status-OWV">OWV</span> – Obviously works, verified</li>
   <li><span class="tag status-HW">HW</span> – "Half‑works" (rate‑limited or too popular)</li>
+  <li><span class="tag status-HW">VNAD</span> – Verified, but Not in App Directory</li>
 </ul>
 
 <div id="botSections">
@@ -51,10 +52,10 @@
 
 <script>
 (async function(){
-  const RAW_URL = 'https://raw.githubusercontent.com/Evil3D/Discord-Bot-Watchlist/main/README.md';
+  const RAW_URL = 'https://raw.githubusercontent.com/Evil3D/Discord-Bot-Watchlist/main/List.md';
   const res = await fetch(RAW_URL);
   if(!res.ok){
-    document.getElementById('botSections').innerHTML='<p>Failed to fetch README 😢</p>';
+    document.getElementById('botSections').innerHTML='<p>Failed to fetch List 😢</p>';
     return;
   }
   const text = await res.text();
@@ -64,7 +65,7 @@
   let current = null;
   const secRe = /^###\s*\*\*(.+?)\*\*/i;
   const botRe = /^(https?:\/\/\S+?)\s+-\s+(.+)/i;
-  const statusCodes = ['PA','W','V','PW','OPA','SPA','VNPA','OWV','HW'];
+  const statusCodes = ['PA','W','V','PW','OPA','SPA','VNPA','OWV','HW','VNAD'];
 
   // This will collect ALL bots found outside of any section
   const normalInvitesFallback = [];
@@ -81,10 +82,10 @@
       let url = bot[1];
       let label = bot[2].trim();
       let status = null;
-      const m = label.match(/,\s*(PA|W|V|PW|OPA|SPA|VNPA|OWV|HW)\s*$/i);
+      const m = label.match(/,\s*(PA|W|V|PW|OPA|SPA|VNPA|OWV|HW|VNAD)\s*$/i);
       if(m){
         status = m[1].toUpperCase();
-        label = label.replace(/,\s*(PA|W|V|PW|OPA|SPA|VNPA|OWV|HW)\s*$/i, '').trim();
+        label = label.replace(/,\s*(PA|W|V|PW|OPA|SPA|VNPA|OWV|HW|VNAD)\s*$/i, '').trim();
       }
       if(current){
         sections[current].push({url,label,status});
