@@ -18,6 +18,7 @@ OPA = Obviously PA
 SPA = Suprisingly PA
 VNPA = Very Nice, PA
 OWV = Obviously Works, Verified
+VNAD = Verified but Not in App Directory
 
 ### **Normal Invites**
 https://discord.com/api/oauth2/authorize?client_id=12345678912345678&permissions=0&scope=bot%20applications.commands - template
@@ -130,6 +131,16 @@ https://discord.com/api/oauth2/authorize?client_id=962376379658297375&scope=bot 
 ### **From Servers**
 https://discord.com/api/oauth2/authorize?client_id=1391529642174709830&scope=bot - Ducky's Server bot Stafftrack, W
 https://discord.com/api/oauth2/authorize?client_id=485406206278631425&scope=bot - chiru from gg/fun, OPA
+https://discord.com/api/oauth2/authorize?client_id=1273858671075397652&scope=bot - Peely from Fortnite.. WHAT, W
+https://discord.com/api/oauth2/authorize?client_id=1237784449345912944&scope=bot - Meltwater from Fortnite, W
+https://discord.com/api/oauth2/authorize?client_id=678339918958690361&scope=bot - The Agency from Fortnite, W
+https://discord.com/api/oauth2/authorize?client_id=803396669767942165&scope=bot - Lovely (Valentines Bot) from Fortnite, W
+https://discord.com/api/oauth2/authorize?client_id=819943575269015562&scope=bot - Scout (Side Swipe??) from Fortnite, W
+https://discord.com/api/oauth2/authorize?client_id=974260727806300180&scope=bot - Social Tags Bot from Fortnite, W
+https://discord.com/api/oauth2/authorize?client_id=1001539494266273823&scope=bot - Fortnite Quest from Fortnite, VNAD
+https://discord.com/api/oauth2/authorize?client_id=1097544054750851215&scope=bot - Find The Force Fn Quest from Fortnite, VNAD
+https://discord.com/api/oauth2/authorize?client_id=1113137365838467176&scope=bot  - FN Leaderboard from Fortnite, V
+https://discord.com/api/oauth2/authorize?client_id=1240625959045038090&scope=bot - Lego Llama (Lego Fortnite) from Fortnite, W
 
 ## **Cleaned Up and Minimalistic**
 
@@ -238,3 +249,13 @@ https://discord.com/api/oauth2/authorize?client_id=485406206278631425&scope=bot 
 ### **From Servers**
 [Ducky's Server bot Stafftrack, W](https://discord.com/api/oauth2/authorize?client_id=1391529642174709830&scope=bot)
 [chiru from gg/fun, OPA](https://discord.com/api/oauth2/authorize?client_id=485406206278631425&scope=bot)
+[Peely from Fortnite.. WHAT, W](https://discord.com/api/oauth2/authorize?client_id=1273858671075397652&scope=bot) //I got addicted to fortnite a lil bit..
+[Meltwater from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=1237784449345912944&scope=bot)
+[The Agency from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=678339918958690361&scope=bot)
+[Lovely (Valentines Bot) from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=803396669767942165&scope=bot)
+[Scout (Side Swipe??) from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=819943575269015562&scope=bot)
+[Social Tags Bot from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=974260727806300180&scope=bot)
+[Fortnite Quest from Fortnite, VNAD](https://discord.com/api/oauth2/authorize?client_id=1001539494266273823&scope=bot)
+[Find The Force Fn Quest from Fortnite, VNAD](https://discord.com/api/oauth2/authorize?client_id=1097544054750851215&scope=bot)
+[FN Leaderboard from Fortnite, V](https://discord.com/api/oauth2/authorize?client_id=1113137365838467176&scope=bot )
+[Lego Llama (Lego Fortnite) from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=1240625959045038090&scope=bot) // Addiction stopped.. For now...
