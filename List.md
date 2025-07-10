@@ -118,8 +118,7 @@ https://discord.com/api/oauth2/authorize?client_id=962376379658297375&scope=bot 
 
 ### **From Servers**
 https://discord.com/api/oauth2/authorize?client_id=1391529642174709830&scope=bot - Ducky's Server bot Stafftrack, W
-https://discord.com/api/oauth2/authorize?client_id=485406206278631425&scope=bot - chiru from gg/fun, OPA
-https://discord.com/api/oauth2/authorize?client_id=1273858671075397652&scope=bot - Peely from Fortnite.. WHAT, W
+https://discord.com/api/oauth2/authorize?client_id=1273858671075397652&scope=bot - Peely from Fortnite.. WHAT, W // Got addicted to Fortnite..
 https://discord.com/api/oauth2/authorize?client_id=1237784449345912944&scope=bot - Meltwater from Fortnite, W
 https://discord.com/api/oauth2/authorize?client_id=678339918958690361&scope=bot - The Agency from Fortnite, W
 https://discord.com/api/oauth2/authorize?client_id=803396669767942165&scope=bot - Lovely (Valentines Bot) from Fortnite, W
@@ -127,8 +126,18 @@ https://discord.com/api/oauth2/authorize?client_id=819943575269015562&scope=bot 
 https://discord.com/api/oauth2/authorize?client_id=974260727806300180&scope=bot - Social Tags Bot from Fortnite, W
 https://discord.com/api/oauth2/authorize?client_id=1001539494266273823&scope=bot - Fortnite Quest from Fortnite, VNAD
 https://discord.com/api/oauth2/authorize?client_id=1097544054750851215&scope=bot - Find The Force Fn Quest from Fortnite, VNAD
-https://discord.com/api/oauth2/authorize?client_id=1113137365838467176&scope=bot  - FN Leaderboard from Fortnite, V
-https://discord.com/api/oauth2/authorize?client_id=1240625959045038090&scope=bot - Lego Llama (Lego Fortnite) from Fortnite, W
+https://discord.com/api/oauth2/authorize?client_id=1240625959045038090&scope=bot - Lego Llama (Lego Fortnite) from Fortnite, W // Addiction ended.. For now...
+https://discord.com/api/oauth2/authorize?client_id=267881929951412224&scope=bot - Yahya from Wynncraft, W
+https://discord.com/api/oauth2/authorize?client_id=267946468348788737&scope=bot - Nohno from Wynncraft, W
+https://discord.com/api/oauth2/authorize?client_id=1229196458381803580&scope=bot - UI Utils Bot, W
+https://discord.com/api/oauth2/authorize?client_id=1367632624339779664&scope=bot - 999s.tr from gg/999, W
+https://discord.com/api/oauth2/authorize?client_id=1367700796799717437&scope=bot - 999s.tr from gg/999, W
+https://discord.com/api/oauth2/authorize?client_id=1040476433056796743&scope=bot - Ultimate Woog Bot from gg/math, W
+https://discord.com/api/oauth2/authorize?client_id=1068722749360570428&scope=bot - Balls.. Cool name fr from Vencord, W // Vencord Yey
+https://discord.com/api/oauth2/authorize?client_id=276487450669613056&scope=bot - HiddenPhox² from Vencord, W
+https://discord.com/api/oauth2/authorize?client_id=880559245471408169&scope=bot - Iframe-Playground from Vencord, W
+https://discord.com/api/oauth2/authorize?client_id=1057419769436971119&scope=bot - Tetris Vendor from Vencord, W
+https://discord.com/api/oauth2/authorize?client_id=1101930172753645628&scope=bot - Vaius' Son from Vencord, W
 
 ## **Cleaned Up and Minimalistic**
 
@@ -236,10 +245,23 @@ https://discord.com/api/oauth2/authorize?client_id=1240625959045038090&scope=bot
 
 ### **From Servers**
 [Ducky's Server bot Stafftrack, W](https://discord.com/api/oauth2/authorize?client_id=1391529642174709830&scope=bot)
-[chiru from gg/fun, OPA](https://discord.com/api/oauth2/authorize?client_id=485406206278631425&scope=bot)
-[Peely from Fortnite.. WHAT, W](https://discord.com/api/oauth2/authorize?client_id=1273858671075397652&scope=bot) //I got addicted to fortnite a lil bit..
+[Peely from Fortnite.. WHAT, W](https://discord.com/api/oauth2/authorize?client_id=1273858671075397652&scope=bot) // Got addicted to Fortnite..
 [Meltwater from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=1237784449345912944&scope=bot)
 [The Agency from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=678339918958690361&scope=bot)
 [Lovely (Valentines Bot) from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=803396669767942165&scope=bot)
 [Scout (Side Swipe??) from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=819943575269015562&scope=bot)
 [Social Tags Bot from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=974260727806300180&scope=bot)
+[Fortnite Quest from Fortnite, VNAD](https://discord.com/api/oauth2/authorize?client_id=1001539494266273823&scope=bot)
+[Find The Force Fn Quest from Fortnite, VNAD](https://discord.com/api/oauth2/authorize?client_id=1097544054750851215&scope=bot)
+[Lego Llama (Lego Fortnite) from Fortnite, W](https://discord.com/api/oauth2/authorize?client_id=1240625959045038090&scope=bot) // Addiction ended.. For now...
+[Yahya from Wynncraft, W](https://discord.com/api/oauth2/authorize?client_id=267881929951412224&scope=bot)
+[Nohno from Wynncraft, W](https://discord.com/api/oauth2/authorize?client_id=267946468348788737&scope=bot)
+[UI Utils Bot, W](https://discord.com/api/oauth2/authorize?client_id=1229196458381803580&scope=bot)
+[999s.tr from gg/999, W](https://discord.com/api/oauth2/authorize?client_id=1367632624339779664&scope=bot)
+[999s.tr from gg/999, W](https://discord.com/api/oauth2/authorize?client_id=1367700796799717437&scope=bot)
+[Ultimate Woog Bot from gg/math, W](https://discord.com/api/oauth2/authorize?client_id=1040476433056796743&scope=bot)
+[Balls.. Cool name fr from Vencord, W](https://discord.com/api/oauth2/authorize?client_id=1068722749360570428&scope=bot) // Vencord Yey
+[HiddenPhox² from Vencord, W](https://discord.com/api/oauth2/authorize?client_id=276487450669613056&scope=bot)
+[Iframe-Playground from Vencord, W](https://discord.com/api/oauth2/authorize?client_id=880559245471408169&scope=bot)
+[Tetris Vendor from Vencord, W](https://discord.com/api/oauth2/authorize?client_id=1057419769436971119&scope=bot)
+[Vaius' Son from Vencord, W](https://discord.com/api/oauth2/authorize?client_id=1101930172753645628&scope=bot)
