@@ -16,4 +16,4 @@ What it does is it adds a new button to when you right click a server, which is 
 The install process is either annoying/interesting or uh cool ig depends on what typa person you are.
 Follow [This](https://docs.vencord.dev/installing/custom-plugins/) and when it tells u to place the file(s) in the userplugins folder, extract the ListBots folder and place it in there (not the files inside the ListBots folder but the folder with all the files), then rebuild vencord and inject it into discord so it adds the plugin and enable it and there ya go (this is all assuming you know how to build/rebuild vencord, if not follow [This](https://docs.vencord.dev/installing/#building-vencord))
 
-You can download the zip [Here](https://github.com/Evil3D/Discord-Bot-Watchlist/releases/download/v1.0/BotList.zip) or at the releases section
+You can download the zip [Here](https://github.com/Evil3D/Discord-Bot-Watchlist/releases/download/v1.01/BotList.zip) or at the releases section
