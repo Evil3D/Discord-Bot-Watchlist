@@ -137,6 +137,14 @@ https://discord.com/api/oauth2/authorize?client_id=1068722749360570428&scope=bot
 https://discord.com/api/oauth2/authorize?client_id=276487450669613056&scope=bot - HiddenPhox² from Vencord, W
 https://discord.com/api/oauth2/authorize?client_id=1057419769436971119&scope=bot - Tetris Vendor from Vencord, W
 https://discord.com/api/oauth2/authorize?client_id=1101930172753645628&scope=bot - Vaius' Son from Vencord, W
+https://discord.com/api/oauth2/authorize?client_id=1389776175311884429&scope=bot - 1v1-bot-v2 from Undetek, W
+https://discord.com/api/oauth2/authorize?client_id=1376668661837987952&scope=bot - Leaderboard from Undetek, W
+https://discord.com/api/oauth2/authorize?client_id=1307503258536902706&scope=bot - Message bot from Undetek, W
+https://discord.com/api/oauth2/authorize?client_id=1389577475394244752&scope=bot - Message-bot from Undetek, W
+https://discord.com/api/oauth2/authorize?client_id=1382155438111592488&scope=bot - Picture Bot from Undetek, W
+https://discord.com/api/oauth2/authorize?client_id=1235332170156085342&scope=bot - Pin from Undetek, W
+https://discord.com/api/oauth2/authorize?client_id=1268665046985347193&scope=bot - FindMCServer from Minecraft, W
+https://discord.com/api/oauth2/authorize?client_id=1003052950538690560&scope=bot - Vanilla Realms Bot, W
 
 
 ### **Special**
@@ -282,6 +290,14 @@ https://discord.com/api/oauth2/authorize?client_id=880559245471408169&scope=bot 
 [System Updates also from gg/wumpus-central, W](https://discord.com/api/oauth2/authorize?client_id=872501852644704337&scope=bot)
 [Moneterey AI from gg/suno, W](https://discord.com/api/oauth2/authorize?client_id=1085287279234400387&scope=bot)
 [Ulumbulu from Discord.Js, W](https://discord.com/oauth2/authorize?client_id=170973938304679936&scope=bot)
+[1v1-bot-v2 from Undetek, W](https://discord.com/api/oauth2/authorize?client_id=1389776175311884429&scope=bot)
+[Leaderboard from Undetek, W](https://discord.com/api/oauth2/authorize?client_id=1376668661837987952&scope=bot)
+[Message bot from Undetek, W](https://discord.com/api/oauth2/authorize?client_id=1307503258536902706&scope=bot)
+[Message-bot from Undetek, W](https://discord.com/api/oauth2/authorize?client_id=1389577475394244752&scope=bot)
+[Picture Bot from Undetek, W](https://discord.com/api/oauth2/authorize?client_id=1382155438111592488&scope=bot)
+[Pin from Undetek, W](https://discord.com/api/oauth2/authorize?client_id=1235332170156085342&scope=bot)
+[FindMCServer from Minecraft, W](https://discord.com/api/oauth2/authorize?client_id=1268665046985347193&scope=bot)
+[Vanilla Realms Bot, W](https://discord.com/api/oauth2/authorize?client_id=1003052950538690560&scope=bot)
 
 ### **Special**
 [Guestbook... DISCORD STAFF???, W](https://discord.com/api/oauth2/authorize?client_id=1001529884625088563&scope=bot)
