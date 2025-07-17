@@ -145,7 +145,8 @@ https://discord.com/api/oauth2/authorize?client_id=1382155438111592488&scope=bot
 https://discord.com/api/oauth2/authorize?client_id=1235332170156085342&scope=bot - Pin from Undetek, W
 https://discord.com/api/oauth2/authorize?client_id=1268665046985347193&scope=bot - FindMCServer from Minecraft, W
 https://discord.com/api/oauth2/authorize?client_id=1003052950538690560&scope=bot - Vanilla Realms Bot, W
-
+https://discord.com/api/oauth2/authorize?client_id=768956979351519252&scope=bot - Censura from gg/funny, W
+https://discord.com/api/oauth2/authorize?client_id=611307357984653398&scope=bot - HowieGuard from gg/funny, W
 
 ### **Special**
 https://discord.com/api/oauth2/authorize?client_id=1001529884625088563&scope=bot - Guest Book... DISCORD STAFF???, W
@@ -298,6 +299,8 @@ https://discord.com/api/oauth2/authorize?client_id=880559245471408169&scope=bot 
 [Pin from Undetek, W](https://discord.com/api/oauth2/authorize?client_id=1235332170156085342&scope=bot)
 [FindMCServer from Minecraft, W](https://discord.com/api/oauth2/authorize?client_id=1268665046985347193&scope=bot)
 [Vanilla Realms Bot, W](https://discord.com/api/oauth2/authorize?client_id=1003052950538690560&scope=bot)
+[Censura from gg/funny, W](https://discord.com/api/oauth2/authorize?client_id=768956979351519252&scope=bot)
+[HowieGuard from gg/funny, W](https://discord.com/api/oauth2/authorize?client_id=611307357984653398&scope=bot)
 
 ### **Special**
 [Guestbook... DISCORD STAFF???, W](https://discord.com/api/oauth2/authorize?client_id=1001529884625088563&scope=bot)
