@@ -147,6 +147,29 @@ https://discord.com/api/oauth2/authorize?client_id=1268665046985347193&scope=bot
 https://discord.com/api/oauth2/authorize?client_id=1003052950538690560&scope=bot - Vanilla Realms Bot, W
 https://discord.com/api/oauth2/authorize?client_id=768956979351519252&scope=bot - Censura from gg/funny, W
 https://discord.com/api/oauth2/authorize?client_id=611307357984653398&scope=bot - HowieGuard from gg/funny, W
+https://discord.com/api/oauth2/authorize?client_id=1028102532473556993&scope=bot - ritter. from gg/wumpus??, W
+https://discord.com/api/oauth2/authorize?client_id=1335301788508749956&scope=bot - ClubBot from gg/donutsmp-club-1192165835318509568
+https://discord.com/api/oauth2/authorize?client_id=1359191239534317614&scope=bot - VisionFX from de same place ^
+https://discord.com/api/oauth2/authorize?client_id=1383071090787487847&scope=bot - Lynx Backup, W
+https://discord.com/api/oauth2/authorize?client_id=1392556731598376960&scope=bot - ShadowInject Bot, the next 4 are gonna be from the same place as this 1, W
+https://discord.com/api/oauth2/authorize?client_id=1395139057465561088&scope=bot - ShadowInject Helper, W
+https://discord.com/api/oauth2/authorize?client_id=1392535964106096771&scope=bot - ShadowInject Roblox Tracker, W
+https://discord.com/api/oauth2/authorize?client_id=1391771482358546614&scope=bot - ShadowInject Script Searcher, W
+https://discord.com/api/oauth2/authorize?client_id=1392558526672535726&scope=bot - ShadowInject Verification, W
+https://discord.com/api/oauth2/authorize?client_id=897181718652534854&scope=bot - Superbuddy Bot, W
+https://discord.com/api/oauth2/authorize?client_id=879301832902586400&scope=bot - Wumpus, W
+https://discord.com/api/oauth2/authorize?client_id=881146227499073546&scope=bot - Jelly bot from gg/jelly, W
+https://discord.com/api/oauth2/authorize?client_id=1368930385156640808&scope=bot - Ice from JellyLab, W
+https://discord.com/api/oauth2/authorize?client_id=1322881763382661132&scope=bot - Crainer (Bot) from gg/crainer-1314150072975491164
+https://discord.com/api/oauth2/authorize?client_id=1105243264245829775&scope=bot - Tick Hosting, W
+https://discord.com/api/oauth2/authorize?client_id=1142831965515559073&scope=bot - Tick Hosting Panel, W
+https://discord.com/api/oauth2/authorize?client_id=1305324090503987222&scope=bot - Coin Events from gg/minecoin
+https://discord.com/api/oauth2/authorize?client_id=1268958198765977720&scope=bot - Coin Linking from gg/minecoin
+https://discord.com/api/oauth2/authorize?client_id=1305033523131842580&scope=bot - Coin Utilities from gg/minecoin
+https://discord.com/api/oauth2/authorize?client_id=1009717616300011551&scope=bot - Minecoin from gg/minecoin
+https://discord.com/api/oauth2/authorize?client_id=1385216263978221618&scope=bot - /heh from gg/fan, W
+https://discord.com/api/oauth2/authorize?client_id=1099784563464618037&scope=bot - Wizard (of oz) from gg/nosniygames, W
+https://discord.com/api/oauth2/authorize?client_id=1272790489380421643&scope=bot - SFHBot from gg/song-file-hub-899784386038333551, W
 
 ### **Special**
 https://discord.com/api/oauth2/authorize?client_id=1001529884625088563&scope=bot - Guest Book... DISCORD STAFF???, W
@@ -301,6 +324,29 @@ https://discord.com/api/oauth2/authorize?client_id=880559245471408169&scope=bot 
 [Vanilla Realms Bot, W](https://discord.com/api/oauth2/authorize?client_id=1003052950538690560&scope=bot)
 [Censura from gg/funny, W](https://discord.com/api/oauth2/authorize?client_id=768956979351519252&scope=bot)
 [HowieGuard from gg/funny, W](https://discord.com/api/oauth2/authorize?client_id=611307357984653398&scope=bot)
+[ritter. from gg/wumpus??, W](https://discord.com/api/oauth2/authorize?client_id=1028102532473556993&scope=bot)
+[ClubBot from gg/donutsmp-club-1192165835318509568](https://discord.com/api/oauth2/authorize?client_id=1335301788508749956&scope=bot)
+[VisionFX from de same place ^](https://discord.com/api/oauth2/authorize?client_id=1359191239534317614&scope=bot)
+[Lynx Backup, W](https://discord.com/api/oauth2/authorize?client_id=1383071090787487847&scope=bot)
+[ShadowInject Bot, the next 4 are gonna be from the same place as this 1, W](https://discord.com/api/oauth2/authorize?client_id=1392556731598376960&scope=bot)
+[ShadowInject Helper, W](https://discord.com/api/oauth2/authorize?client_id=1395139057465561088&scope=bot)
+[ShadowInject Roblox Tracker, W](https://discord.com/api/oauth2/authorize?client_id=1392535964106096771&scope=bot)
+[ShadowInject Script Searcher, W](https://discord.com/api/oauth2/authorize?client_id=1391771482358546614&scope=bot)
+[ShadowInject Verification, W](https://discord.com/api/oauth2/authorize?client_id=1392558526672535726&scope=bot)
+[Superbuddy Bot, W](https://discord.com/api/oauth2/authorize?client_id=897181718652534854&scope=bot)
+[Wumpus, W](https://discord.com/api/oauth2/authorize?client_id=879301832902586400&scope=bot)
+[Jelly bot from gg/jelly, W](https://discord.com/api/oauth2/authorize?client_id=881146227499073546&scope=bot)
+[Ice from JellyLab, W](https://discord.com/api/oauth2/authorize?client_id=1368930385156640808&scope=bot)
+[Crainer (Bot) from gg/crainer-1314150072975491164](https://discord.com/api/oauth2/authorize?client_id=1322881763382661132&scope=bot)
+[Tick Hosting, W](https://discord.com/api/oauth2/authorize?client_id=1105243264245829775&scope=bot)
+[Tick Hosting Panel, W](https://discord.com/api/oauth2/authorize?client_id=1142831965515559073&scope=bot)
+[Coin Events from gg/minecoin](https://discord.com/api/oauth2/authorize?client_id=1305324090503987222&scope=bot)
+[Coin Linking from gg/minecoin](https://discord.com/api/oauth2/authorize?client_id=1268958198765977720&scope=bot)
+[Coin Utilities from gg/minecoin](https://discord.com/api/oauth2/authorize?client_id=1305033523131842580&scope=bot)
+[Minecoin from gg/minecoin](https://discord.com/api/oauth2/authorize?client_id=1009717616300011551&scope=bot)
+[/heh from gg/fan, W](https://discord.com/api/oauth2/authorize?client_id=1385216263978221618&scope=bot)
+[Wizard (of oz) from gg/nosniygames, W](https://discord.com/api/oauth2/authorize?client_id=1099784563464618037&scope=bot)
+[SFHBot from gg/song-file-hub-899784386038333551, W](https://discord.com/api/oauth2/authorize?client_id=1272790489380421643&scope=bot)
 
 ### **Special**
 [Guestbook... DISCORD STAFF???, W](https://discord.com/api/oauth2/authorize?client_id=1001529884625088563&scope=bot)
