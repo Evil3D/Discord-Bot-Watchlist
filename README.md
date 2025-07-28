@@ -4,7 +4,7 @@ Hallo, this is where im gonna put all the bot invites i have collected, what i d
 
 #### **For better formatting, visit the [Website](https://evil3d.github.io/Discord-Bot-Watchlist) instead**
 
-### **I'm probably going to stop updating this, join my [Discord Server](https://discord.gg/u34XAgCqvE) instead frfr**
+### **I'm probably going to stop updating this, join my Discord Server (nvm not done yet) instead frfr**
 
 Idk what else to say so here's why i made this:
   I was quite bored and i was bored..
