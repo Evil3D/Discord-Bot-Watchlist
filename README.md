@@ -4,6 +4,8 @@ Hallo, this is where im gonna put all the bot invites i have collected, what i d
 
 #### **For better formatting, visit the [Website](https://evil3d.github.io/Discord-Bot-Watchlist) instead**
 
+### **I'm probably going to stop updating this, join my [Discord Server](https://discord.gg/u34XAgCqvE) instead frfr**
+
 Idk what else to say so here's why i made this:
   I was quite bored and i was bored..
   It's kinda fun and interesting, also i get to see a bit of different messages from discord, like private access or reported for abuse, or reported for spam(from some bots, mostly scam ones) and yea!
