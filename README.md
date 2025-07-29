@@ -1,21 +1,80 @@
 # **Discord Bot Watchlist**
 
-Hallo, this is where im gonna put all the bot invites i have collected, what i do is basically check the servers im in for unverified bots and if there are any i check if i can add them to my server, and now i have a list of over 50 working bot invites, these most likely will not be checked alot, if at all.
+Hallo, this is where I'm gonna put all the bot invites I’ve collected.  
+What I do is basically check the servers I’m in for unverified bots —  
+if there are any, I check if I can add them to my server.  
+Now I’ve got a list of **50+ working bot invites**.  
+These probably won’t be checked a lot…  
+**yeah no, who am I kidding — they won’t be checked at all after being added.**
 
-#### **For better formatting, visit the [Website](https://evil3d.github.io/Discord-Bot-Watchlist) instead**
+---
 
-### **I'm probably going to stop updating this, join my Discord Server (nvm not done yet) instead frfr**
+#### 👉 For better formatting, visit the [**Website**](https://evil3d.github.io/Discord-Bot-Watchlist)
 
-Idk what else to say so here's why i made this:
-  I was quite bored and i was bored..
-  It's kinda fun and interesting, also i get to see a bit of different messages from discord, like private access or reported for abuse, or reported for spam(from some bots, mostly scam ones) and yea!
-  
-Also i have different lists, so there'll be more than just 1 list of bot invites. You can visit the list either at [Here](https://raw.githubusercontent.com/Evil3D/Discord-Bot-Watchlist/main/List.md) or the [Website](https://evil3d.github.io/Discord-Bot-Watchlist)
+---
 
-Alsoooo i've made a vencord plugin for this purpose pretty much!
-What it does is it adds a new button to when you right click a server, which is "List Bots", when used it'll open up a gui with all the bots in the server (i used this for the fortnite server, and i had to @ a bot that wasnt in the list for it to load all of the others, i didnt send it i js @'d it, i did have a vencord mod to be able to open it's context menu when i just click on the unsent @ which is probably why it loaded every other bot, otherwise idk why, have fun!).
+## ❓ Why I Made This
 
-The install process is either annoying/interesting or uh cool ig depends on what typa person you are.
-Follow [This](https://docs.vencord.dev/installing/custom-plugins/) and when it tells u to place the file(s) in the userplugins folder, extract the ListBots folder and place it in there (not the files inside the ListBots folder but the folder with all the files), then rebuild vencord and inject it into discord so it adds the plugin and enable it and there ya go (this is all assuming you know how to build/rebuild vencord, if not follow [This](https://docs.vencord.dev/installing/#building-vencord))
+I was quite bored and… I was bored.  
+It's kinda fun and interesting, plus I get to see different Discord messages like:
+- “This bot is private”
+- “Reported for abuse”
+- “Blocked due to spam”  
+(especially from scammy bots)
 
-You can download the zip [Here](https://github.com/Evil3D/Discord-Bot-Watchlist/releases/download/v1.02/ServerEnhancements.zip) or at the releases section
+---
+
+## 📜 Bot Invite Lists
+
+There are multiple lists — not just one massive dump.
+
+The main list is stored as a markdown file,  
+but the website pulls directly from it and formats it much cleaner.
+
+- [**List.md (Raw text)**](https://raw.githubusercontent.com/Evil3D/Discord-Bot-Watchlist/main/List.md)  
+- [**Website version (prettified)**](https://evil3d.github.io/Discord-Bot-Watchlist)
+
+---
+
+## 🛠️ Vencord Plugin – **ListBots**
+
+I also made a Vencord plugin for this purpose.
+
+### 💡 What it does:
+Adds a new right-click option on servers:  
+**“List Bots”**  
+When clicked, it opens a GUI showing all bots in the server.
+
+🧪 Tested in big servers like Fortnite’s —  
+weirdly, I had to ping a hidden bot to make the rest load (maybe due to Vencord mods).
+
+---
+
+### 🧱 How to Install
+
+1. Follow the official guide:  
+   [📘 Installing Custom Plugins](https://docs.vencord.dev/installing/custom-plugins/)
+
+2. When it says to place the file(s) in `userplugins`,  
+   extract the `ListBots` folder and place **that entire folder** into the directory.
+
+3. Rebuild & inject Vencord, enable the plugin — and you’re done!  
+   *(If you don't know how to build Vencord:  
+   [📘 Read this](https://docs.vencord.dev/installing/#building-vencord))*
+
+---
+
+### 📦 Download
+
+- [Download the ZIP here](https://github.com/Evil3D/Discord-Bot-Watchlist/releases/download/v1.02/ServerEnhancements.zip)
+- Or check the [Releases section](https://github.com/Evil3D/Discord-Bot-Watchlist/releases)
+
+---
+
+## 🔍 Want to Chat?
+
+There *might* be a Discord server for this 👀  
+It’s not ready. Or maybe it’s hidden. 🕵️‍♂️  
+You’ll find it... if you're meant to.
+
+---
