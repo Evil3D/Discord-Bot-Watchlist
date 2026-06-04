@@ -115,6 +115,38 @@ https://discord.com/api/oauth2/authorize?client_id=497070494353195019&scope=bot 
 https://discord.com/api/oauth2/authorize?client_id=722724539028734003 //Doesnt work with scope "bot" idk what else to do.
 https://discord.com/api/oauth2/authorize?client_id=724047481561809007&scope=bot - ScatHatch, V
 https://discord.com/api/oauth2/authorize?client_id=962376379658297375&scope=bot - ValorHub, inactive dev and too popular, PW
+https://discord.com/api/oauth2/authorize?client_id=1066192909109567489&scope=bot - Paint, Too Popular, PW
+https://discord.com/api/oauth2/authorize?client_id=1066371580432756746&scope=bot - SingModer , W
+https://discord.com/api/oauth2/authorize?client_id=1066409282381299772&scope=bot - Miss All Sunday, W
+https://discord.com/api/oauth2/authorize?client_id=1066467251445837965 - NULL
+https://discord.com/api/oauth2/authorize?client_id=1066753199421263923&scope=bot - Чисато, Too Popular, PW
+https://discord.com/api/oauth2/authorize?client_id=1067067318867341392 - NULL
+https://discord.com/api/oauth2/authorize?client_id=1067093624266969159&scope=bot - ちょむすけ, W
+https://discord.com/api/oauth2/authorize?client_id=1067160327990554776&scope=bot - LowBot, W
+https://discord.com/api/oauth2/authorize?client_id=1067440815154135072&scope=bot - Ichihime, W
+https://discord.com/api/oauth2/authorize?client_id=1067452356947607562&scope=bot - Sweepify, W
+https://discord.com/api/oauth2/authorize?client_id=1067543611178221680&scope=bot - ARAM Team Generator, W
+https://discord.com/api/oauth2/authorize?client_id=1067545513643216987 - NULL
+https://discord.com/api/oauth2/authorize?client_id=1067875166224392252&scope=bot - Geepers, W
+https://discord.com/api/oauth2/authorize?client_id=1068016655503982644 - NULL
+https://discord.com/api/oauth2/authorize?client_id=1068237563598491648 - NULL
+https://discord.com/api/oauth2/authorize?client_id=1068269082396344362&scope=bot - Empty, W
+https://discord.com/api/oauth2/authorize?client_id=1068298049639698452&scope=bot - BrikBot, W
+https://discord.com/api/oauth2/authorize?client_id=1068508450780368906&scope=bot - GvAuto, W
+https://discord.com/api/oauth2/authorize?client_id=1068572316986003466&scope=bot - Fsh, too popular, PW
+https://discord.com/api/oauth2/authorize?client_id=1068580872162377780&scope=bot - Sommie, W
+https://discord.com/api/oauth2/authorize?client_id=1068622876535689328&scope=bot - Nisshoku Gen, W
+https://discord.com/api/oauth2/authorize?client_id=1068978291412836422&scope=bot - SDA, too popular, PW
+https://discord.com/api/oauth2/authorize?client_id=1068913485771178065 - NULL
+https://discord.com/api/oauth2/authorize?client_id=1068637662157742191 - NULL
+https://discord.com/api/oauth2/authorize?client_id=1068991493232140358&scope=bot - Tarkov Bot, W
+https://discord.com/api/oauth2/authorize?client_id=1069195510595977236&scope=bot - Movie Adda, W
+https://discord.com/api/oauth2/authorize?client_id=1069226651533189170&scope=bot - Mountebank, PA
+https://discord.com/api/oauth2/authorize?client_id=1069423090225918082&scope=bot - Community One, Didn't find in App Directory within 2.5 secs so,  VNAD
+https://discord.com/api/oauth2/authorize?client_id=1069533675097690202&scope=bot - Biscuit Oliva, PA
+https://discord.com/api/oauth2/authorize?client_id=1069559443697704980&scope=bot - EFEM Bot, V
+https://discord.com/api/oauth2/authorize?client_id=1069617913033674752&scope=bot - Klára, W
+https://discord.com/api/oauth2/authorize?client_id=562987075326967809&scope=bot - そうだよ(便乗)BOT, V
 
 ### **From Servers**
 https://discord.com/api/oauth2/authorize?client_id=1391529642174709830&scope=bot - Ducky's Server bot Stafftrack, W
@@ -173,6 +205,7 @@ https://discord.com/api/oauth2/authorize?client_id=1272790489380421643&scope=bot
 https://discord.com/api/oauth2/authorize?client_id=810099732122042420&scope=bot - SLLBot, W
 https://discord.com/api/oauth2/authorize?client_id=1120922473626607627&scope=bot - Integer, from gg/cyberinfo, W
 https://discord.com/api/oauth2/authorize?client_id=950767521236131951&scope=bot - Boi, gg/elementx, W
+
 
 ### **Special**
 https://discord.com/api/oauth2/authorize?client_id=1001529884625088563&scope=bot - Guest Book... DISCORD STAFF???, W
@@ -281,6 +314,38 @@ https://discord.com/api/oauth2/authorize?client_id=880559245471408169&scope=bot 
 [DraftBot PTB, V](https://discord.com/api/oauth2/authorize?client_id=497070494353195019&scope=bot)
 [ScatHatch, V](https://discord.com/api/oauth2/authorize?client_id=724047481561809007&scope=bot)
 [ValorHub, inactive dev and too popular, PW](https://discord.com/api/oauth2/authorize?client_id=962376379658297375&scope=bot)
+[Paint, Too Popular, PW](https://discord.com/api/oauth2/authorize?client_id=1066192909109567489&scope=bot)
+[SingModer , W](https://discord.com/api/oauth2/authorize?client_id=1066371580432756746&scope=bot)
+[Miss All Sunday, W](https://discord.com/api/oauth2/authorize?client_id=1066409282381299772&scope=bot)
+[NULL](https://discord.com/api/oauth2/authorize?client_id=1066467251445837965)
+[Чисато, Too Popular, PW](https://discord.com/api/oauth2/authorize?client_id=1066753199421263923&scope=bot)
+[NULL](https://discord.com/api/oauth2/authorize?client_id=1067067318867341392)
+[ちょむすけ, W](https://discord.com/api/oauth2/authorize?client_id=1067093624266969159&scope=bot)
+[LowBot, W](https://discord.com/api/oauth2/authorize?client_id=1067160327990554776&scope=bot)
+[Ichihime, W](https://discord.com/api/oauth2/authorize?client_id=1067440815154135072&scope=bot)
+[Sweepify, W](https://discord.com/api/oauth2/authorize?client_id=1067452356947607562&scope=bot)
+[ARAM Team Generator, W](https://discord.com/api/oauth2/authorize?client_id=1067543611178221680&scope=bot)
+[NULL](https://discord.com/api/oauth2/authorize?client_id=1067545513643216987)
+[Geepers, W](https://discord.com/api/oauth2/authorize?client_id=1067875166224392252&scope=bot)
+[NULL](https://discord.com/api/oauth2/authorize?client_id=1068016655503982644)
+[NULL](https://discord.com/api/oauth2/authorize?client_id=1068237563598491648)
+[Empty, W](https://discord.com/api/oauth2/authorize?client_id=1068269082396344362&scope=bot)
+[BrikBot, W](https://discord.com/api/oauth2/authorize?client_id=1068298049639698452&scope=bot)
+[GvAuto, W](https://discord.com/api/oauth2/authorize?client_id=1068508450780368906&scope=bot)
+[Fsh, too popular, PW](https://discord.com/api/oauth2/authorize?client_id=1068572316986003466&scope=bot)
+[Sommie, W](https://discord.com/api/oauth2/authorize?client_id=1068580872162377780&scope=bot)
+[Nisshoku Gen, W](https://discord.com/api/oauth2/authorize?client_id=1068622876535689328&scope=bot)
+[SDA, too popular, PW](https://discord.com/api/oauth2/authorize?client_id=1068978291412836422&scope=bot)
+[NULL](https://discord.com/api/oauth2/authorize?client_id=1068913485771178065)
+[NULL](https://discord.com/api/oauth2/authorize?client_id=1068637662157742191)
+[Tarkov Bot, W](https://discord.com/api/oauth2/authorize?client_id=1068991493232140358&scope=bot)
+[Movie Adda, W](https://discord.com/api/oauth2/authorize?client_id=1069195510595977236&scope=bot)
+[Mountebank, PA](https://discord.com/api/oauth2/authorize?client_id=1069226651533189170&scope=bot)
+[Community One, Didn't find in App Directory within 2.5 secs so,  VNAD](https://discord.com/api/oauth2/authorize?client_id=1069423090225918082&scope=bot)
+[Biscuit Oliva, PA](https://discord.com/api/oauth2/authorize?client_id=1069533675097690202&scope=bot)
+[EFEM Bot, V](https://discord.com/api/oauth2/authorize?client_id=1069559443697704980&scope=bot)
+[Klára, W](https://discord.com/api/oauth2/authorize?client_id=1069617913033674752&scope=bot)
+[そうだよ(便乗)BOT, V](https://discord.com/api/oauth2/authorize?client_id=562987075326967809&scope=bot)
 
 ### **From Servers**
 [Ducky's Server bot Stafftrack, W](https://discord.com/api/oauth2/authorize?client_id=1391529642174709830&scope=bot)
