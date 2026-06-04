@@ -170,6 +170,9 @@ https://discord.com/api/oauth2/authorize?client_id=1009717616300011551&scope=bot
 https://discord.com/api/oauth2/authorize?client_id=1385216263978221618&scope=bot - /heh from gg/fan, W
 https://discord.com/api/oauth2/authorize?client_id=1099784563464618037&scope=bot - Wizard (of oz) from gg/nosniygames, W
 https://discord.com/api/oauth2/authorize?client_id=1272790489380421643&scope=bot - SFHBot from gg/song-file-hub-899784386038333551, W
+https://discord.com/api/oauth2/authorize?client_id=810099732122042420&scope=bot - SLLBot, W
+https://discord.com/api/oauth2/authorize?client_id=1120922473626607627&scope=bot - Integer, from gg/cyberinfo, W
+https://discord.com/api/oauth2/authorize?client_id=950767521236131951&scope=bot - Boi, gg/elementx, W
 
 ### **Special**
 https://discord.com/api/oauth2/authorize?client_id=1001529884625088563&scope=bot - Guest Book... DISCORD STAFF???, W
@@ -347,6 +350,9 @@ https://discord.com/api/oauth2/authorize?client_id=880559245471408169&scope=bot 
 [/heh from gg/fan, W](https://discord.com/api/oauth2/authorize?client_id=1385216263978221618&scope=bot)
 [Wizard (of oz) from gg/nosniygames, W](https://discord.com/api/oauth2/authorize?client_id=1099784563464618037&scope=bot)
 [SFHBot from gg/song-file-hub-899784386038333551, W](https://discord.com/api/oauth2/authorize?client_id=1272790489380421643&scope=bot)
+[SLLBot, W](https://discord.com/api/oauth2/authorize?client_id=810099732122042420&scope=bot)
+[Integer, from gg/cyberinfo, W](https://discord.com/api/oauth2/authorize?client_id=1120922473626607627&scope=bot)
+[Boi, gg/elementx, W](https://discord.com/api/oauth2/authorize?client_id=950767521236131951&scope=bot)
 
 ### **Special**
 [Guestbook... DISCORD STAFF???, W](https://discord.com/api/oauth2/authorize?client_id=1001529884625088563&scope=bot)
